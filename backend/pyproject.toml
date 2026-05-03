@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latent-space-navigator-backend"
+version = "0.1.0"
+description = "FastAPI and vector processing backend for Latent Space Navigator."
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115.6",
+  "numpy>=1.26.4",
+  "pillow>=10.4.0",
+  "pydantic>=2.10.4",
+  "uvicorn>=0.34.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.4"
+]
+ml = [
+  "open-clip-torch>=2.29.0",
+  "scikit-learn>=1.6.0",
+  "torch>=2.5.1",
+  "umap-learn>=0.5.7"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

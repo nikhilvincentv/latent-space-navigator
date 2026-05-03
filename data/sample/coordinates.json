@@ -1,0 +1,48 @@
+{
+  "model": "sample-hand-authored",
+  "reducer": "manual-demo",
+  "points": [
+    {
+      "id": "img-001",
+      "title": "Chromatic Fog",
+      "imageUrl": "/sample-images/chromatic-fog.svg",
+      "clusterId": "soft gradients",
+      "coordinates": [-4.2, 1.1, -1.8]
+    },
+    {
+      "id": "img-002",
+      "title": "Quiet Field",
+      "imageUrl": "/sample-images/quiet-field.svg",
+      "clusterId": "soft gradients",
+      "coordinates": [-3.1, 0.4, -2.5]
+    },
+    {
+      "id": "img-003",
+      "title": "Signal Grid",
+      "imageUrl": "/sample-images/signal-grid.svg",
+      "clusterId": "structured systems",
+      "coordinates": [2.4, -0.8, 1.1]
+    },
+    {
+      "id": "img-004",
+      "title": "Interface Trace",
+      "imageUrl": "/sample-images/interface-trace.svg",
+      "clusterId": "structured systems",
+      "coordinates": [3.6, -1.2, 0.2]
+    },
+    {
+      "id": "img-005",
+      "title": "Gesture Study",
+      "imageUrl": "/sample-images/gesture-study.svg",
+      "clusterId": "expressive motion",
+      "coordinates": [0.6, 2.8, 3.4]
+    },
+    {
+      "id": "img-006",
+      "title": "Kinetic Ink",
+      "imageUrl": "/sample-images/kinetic-ink.svg",
+      "clusterId": "expressive motion",
+      "coordinates": [-0.4, 3.4, 4.2]
+    }
+  ]
+}
